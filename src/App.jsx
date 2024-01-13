@@ -5,6 +5,7 @@ import PopUp from "./Pop-Up/popUp";
 function App() {
   // localStorage.setItem("myKey", myValue);
   const locatStorageNotes = localStorage.getItem("sneh_notes");
+  console.log("kkkkkkkkkk");
 
   const [notes, setNotes] = useState(
     locatStorageNotes ? JSON.parse(locatStorageNotes) : []
