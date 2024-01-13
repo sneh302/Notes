@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #ffe5e5;
+}
+
+.text {
+  display: block;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 0.5rem;
+  margin-top: 1rem;
+  padding: 10px;
+  background-color: #ac87c5;
+  border: none;
+  outline: none;
+  border-radius: 0.1rem;
+  border-radius: 10px;
+  color: #ffe5e5;
+}
+.add-btn {
+  width: 10rem;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background-color: #756ab6;
+  color: #ffe5e5;
+  border: none;
+  padding: 0.4rem;
+  border-radius: 0.3rem;
+  transition: all 0.4s;
+}
+
+.add-btn:hover {
+  background-color: #e0aed0;
+  color: #756ab6;
+  border: 1.5px solid #756ab6;
+}
+
+.Time_input_div {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.Time_input_div > h1 {
+  font: 400 2vmax cursive;
+  color: #f5cca0;
+}
+.Time_input_div > h2 {
+  font: 400 2vmax cursive;
+  color: #f5cca0;
+  padding-bottom: 1vmax;
+}
+
+.timePopUp_social > a {
+  text-decoration: none;
+  padding: 1vmax;
+  transition: all 0.5s;
+  color: #f5cca0;
+}
+.timePopUp_social > a:hover {
+  color: #e48f45;
+}
+
+.notesContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.note {
+  padding: 10px;
+  width: 80%;
+  margin: 1rem 2rem;
+  transition: all 0.4s;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  background-color: #e0aed0;
+  border-radius: 10px;
+}
+
+.note:hover {
+  scale: 1.02;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.note-inner-btn {
+  box-sizing: border-box;
+  cursor: pointer;
+  background-color: #756ab6;
+  border: none;
+  width: 6rem;
+  height: 1.8rem;
+  margin: 0.2rem;
+  margin-top: 0.7rem;
+  border-radius: 0.3rem;
+  color: #ffe5e5;
+  transition: all 0.4s;
+}
+
+.note-inner-btn:hover {
+  background-color: #e0aed0;
+  color: #756ab6;
+  border: 1.5px solid #756ab6;
+}
+
+.update-text {
+  margin-top: 0.3rem;
+  outline: none;
+  background-color: rgb(227, 219, 219);
+  border: none;
+  padding: 0.2rem;
+  border-radius: 0.2rem;
+}
